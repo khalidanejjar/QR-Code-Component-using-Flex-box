@@ -1,0 +1,43 @@
+/* Utility */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    background-color: hsl(212, 45%, 89%);
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+}
+/* QR section */
+.qr{
+    max-width: 300px;
+    background: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    margin: 4rem auto 5rem;
+}
+.container{
+ display: flex;   
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+}
+/* Image */
+.qr__img img {
+width: 100%;
+padding: 1rem;
+border-radius: 23px;
+}
+/* QR content */
+.qr__content{
+    max-width: 280px;
+    text-align: center;
+}
+.qr__content-title{
+    margin-bottom: 1rem;
+}
+.qr__content-text{
+    margin-bottom: 2.2rem;
+    color: hsl(218, 44%, 22%);
+}
